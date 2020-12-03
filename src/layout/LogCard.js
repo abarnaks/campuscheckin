@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Card, CardText, CardBlock, CardTitle, CardSubtitle, CardBody} from 'reactstrap';
+import { Card, CardText, CardTitle, CardSubtitle, CardBody} from 'reactstrap';
 
 
 export class LogCard extends Component {

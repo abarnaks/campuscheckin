@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
-import { Bar, Line, Pie } from 'react-chartjs-2'; 
+import { Bar, Line} from 'react-chartjs-2'; 
 import axios from 'axios';
-//import {GraphComp} from '../layout/GraphComp';
 import Select from 'react-select'
 
 export class AnalyzePage extends Component {
