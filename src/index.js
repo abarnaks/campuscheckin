@@ -7,7 +7,7 @@ import { BrowserRouter } from "react-router-dom";
 import * as serviceWorker from "./serviceWorker";
 import axios from 'axios';
 
-axios.defaults.baseURL ='http://prototype2campuscheckin-env.eba-2pdh835d.us-east-1.elasticbeanstalk.com'
+axios.defaults.baseURL ='https://prototype2campuscheckin-env.eba-2pdh835d.us-east-1.elasticbeanstalk.com'
 
 
 ReactDOM.render(
