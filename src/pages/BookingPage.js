@@ -33,7 +33,7 @@ export default class BookingPage extends Component {
 
         if (this.state.room)
         {
-            const {handle} = this.state.handle
+            
             let roomcards = this.state.room.map(room => {
                 return (
                     <div><RoomCard room = {room}/> <span className="badge badge-pill badge-success">{this.state.room1}</span></div> 

@@ -1,10 +1,5 @@
 import React, { Component } from 'react'
-import { Container, Row, Col } from 'reactstrap';
 import {LogCard} from '../layout/LogCard';
-import './LogPage.css';
-import Paper from '@material-ui/core/Paper';
-import Grid from '@material-ui/core/Grid';
-import List from '@material-ui/core/List';
 import axios from 'axios';
 
 
